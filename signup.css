@@ -1,0 +1,59 @@
+body {
+  background-image: url(public/images/cover/image7.jpg);
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.container {
+  background: rgb(0, 0, 0);
+  font-family: Roboto, sans-serif;
+  border-style: 1px solid white;
+  margin: 0 auto;
+  opacity: 0.8;
+  max-width: 400px;
+  height: 550px;
+  margin-top: 80px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px #ffa500, -3px -3px 5px #ffa500;
+  font-family: "Gluten", cursive;
+}
+.heading {
+  text-decoration: bold;
+  text-align: center;
+  font-size: 30px;
+  color: #ffa500;
+  padding-top: 10px;
+}
+
+.lastname,
+.firstname,
+.mail,
+.pass {
+  margin-left: 1px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+
+#lname,
+#email,
+#password {
+  margin-top: 5px;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0;
+  border: 0.2rem solid #130f40;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.4s;
+  width: 50%;
+}
+.btn:hover {
+  transform: scaleX(1.1);
+  background: #130f40;
+  color: #fff;
+}

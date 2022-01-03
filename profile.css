@@ -1,0 +1,21 @@
+body {
+  background-image: url(public/images/cover/image7.jpg);
+  padding-top: 68px;
+  padding-bottom: 50px;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.card {
+  border-radius: 15px;
+}
+.card-title {
+  border-radius: 15px;
+  opacity: 0.8;
+  background-color: black;
+}
+
+/* .card {
+  box-shadow: 10px 6px 12px #18191a, -6px -6px 12px #18191a;
+} */

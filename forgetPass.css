@@ -1,0 +1,57 @@
+body {
+  background-image: url(/public/images/cover/image7.jpg);
+  padding-top: 68px;
+  padding-bottom: 50px;
+}
+.forget-key {
+  font-size: 5rem;
+}
+.forget-pwd > a {
+  color: #dc3545;
+  font-weight: 500;
+}
+
+.forget-password .panel-default {
+  padding: 25% 15%;
+  margin-top: -27%;
+}
+.forget-password .panel-body {
+  padding: 15%;
+  margin-bottom: -50%;
+  background: rgb(119, 118, 118);
+  border-radius: 15px;
+  opacity: 0.9;
+  font-family: "Gluten", cursive;
+}
+img {
+  width: 40%;
+  margin-bottom: 10%;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0;
+  border: 0.2rem solid #130f40;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.4s;
+  width: 50%;
+  font-weight: bold;
+}
+.btn:hover {
+  transform: scaleX(1.1);
+  background: #130f40;
+  color: #fff;
+}
+.forget-password .dropdown {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.forget-password .dropdown button {
+  width: 100%;
+}
+.forget-password .dropdown ul {
+  width: 100%;
+}
